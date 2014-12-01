@@ -1,0 +1,129 @@
+*, html{
+	margin: 0px;
+	padding: 0px;
+}
+
+h1{
+	text-align: center;
+	font-family: 'Covered By Your Grace', cursive;
+	font-weight: 400;
+	font-size: 50px;
+	margin-top: 0px;
+	color: #991818;
+	background-color: rgba(247,247,247,0.5);
+}
+
+p{
+	font-family: 'Covered By Your Grace', cursive;
+	font-weight: 400;
+	font-size: 22px;
+	color: #F7F7F7;
+	background-color: rgba(59,55,55,0.6);
+}
+
+#home{
+	background-image: url('../img/El-almohadon-de-plumas.jpg');
+	position: fixed;
+}
+
+#section2{
+	background-image: url('../img/escena1.jpg');
+	position:  fixed;
+}
+
+#section3{
+	background-image: url('../img/escena2.jpg');
+	position: fixed;
+}
+
+#section4{
+	background-image: url('../img/escena3.jpg');
+	position: fixed;
+}
+
+#section5{
+	background-image: url('../img/escena4.jpg');
+	position: fixed;
+}
+
+#section6{
+	background-image: url('../img/escena5.jpg');
+	position: fixed;
+}
+
+#section7{
+	background-image: url('../img/escena6.jpg');
+	position: fixed;
+}
+
+#section8{
+	background-image: url('../img/escena7.jpg');
+	position: fixed;
+}
+
+#section9{
+	background-image: url('../img/escena8.jpg');
+	position: fixed;
+}
+
+#section10{
+	background-image: url('../img/escena9.jpg');
+	position: fixed;
+}
+
+#section11{
+	background-image: url('../img/escena10.jpg');
+	position: fixed;
+}
+
+#home, #section2, #section3, #section4, #section5, #section6, #section7, #section8, #section9, #section10, #section11{
+	margin: 0 auto;
+	max-width: 1920px;
+	min-height: 700px;
+	position: relative;
+	width: 100%;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+
+
+article{
+	padding: 100px;
+}
+
+.geek{
+	background: url(img/);
+	display: block;
+	height: 368px;
+	margin: 0 auto;
+	width: 517px;
+}
+
+.parallax{
+	background-attachment: fixed;
+	margin: 0px;
+	padding: 0px;
+	margin-top: -30px;
+	width: 100%;
+	height: 900px;
+	position: relative;
+}
+
+.wrapper{
+	position: relative;
+	margin-left: 0px;
+	display: inline;
+}
+
+
+
+.wrapper div{
+	position: fixed;
+	width: 512px;
+	height: 600px;
+	background-image: ('../img/alicia.jpg')
+}
+
